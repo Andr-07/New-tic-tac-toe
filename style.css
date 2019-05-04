@@ -1,0 +1,59 @@
+span {
+  position: absolute;
+    left: 35%;
+}
+
+.table_container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(212, 212, 212);
+    padding: 10px;
+  }
+  
+  .table_item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 3px solid rgba(15, 15, 15, 0.8);
+    padding: 40px;
+    font-size: 40px;
+    text-align: center;
+    cursor: pointer;
+    font-family: sans-serif;
+    width: 40px;
+    height: 40px;
+    font-style: inherit;
+  }
+
+  .table_item:hover {
+    background-color: rgb(184, 162, 202);
+  }
+
+  .winner {
+    color:red;
+  }
+
+  h1{
+    text-align: center;
+
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 40px;
+    color:rgb(196, 0, 0)
+  }
+
+  #blink2 {
+    -webkit-animation: blink2 1s linear infinite;
+    animation: blink2 1s linear infinite;
+  }
+  @-webkit-keyframes blink2 {
+    100% { color: rgb(241, 194, 194) }
+  }
+  @keyframes blink2 {
+    100% { color:  rgb(241, 194, 194)}
+  }
+  marquee { 
+    font-weight: bolder; 
+    line-height: 150%; 
+    text-shadow: #000000 0px 1px 1px;
+  }
